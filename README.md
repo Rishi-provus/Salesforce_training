@@ -1,4 +1,4 @@
-# Salesforce CPQ Project: Automation & Governance Engine
+# Salesforce CPQ EXPRESS Project: Automation & Governance Engine
 
 This repository contains a professional-grade Apex framework developed for a Salesforce CPQ-enabled environment. The project focuses on high-impact sales automation, discount compliance, and a hybrid manual/automated approval state machine.
 
