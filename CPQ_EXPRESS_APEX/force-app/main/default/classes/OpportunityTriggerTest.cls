@@ -29,7 +29,7 @@ private class OpportunityTriggerTest {
 
     @isTest
     static void testQuoteCreationFallback() {
-        // THE TRICK: Delete the Solar Book to force the 'else' branch coverage
+        //  Delete the Solar Book to force the 'else' branch coverage
         Pricebook2 solarPB = [SELECT Id FROM Pricebook2 WHERE Name = 'Solar Book' LIMIT 1];
         delete solarPB;
 
