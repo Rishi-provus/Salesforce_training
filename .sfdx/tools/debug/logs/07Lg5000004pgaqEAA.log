@@ -1,0 +1,163 @@
+66.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DATA_ACCESS,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+11:07:50.0 (294250)|USER_INFO|[EXTERNAL]|005g5000004fJ4P|jainrishirich2004@brave-impala-hn3maq.com|(GMT+05:30) India Standard Time (Asia/Kolkata)|GMT+05:30
+11:07:50.0 (384856)|EXECUTION_STARTED
+11:07:50.0 (411197)|CODE_UNIT_STARTED|[EXTERNAL]|TRIGGERS
+11:07:50.0 (441930)|CODE_UNIT_STARTED|[EXTERNAL]|01qg5000000f0qT|OpportunityValidationTrigger on Opportunity trigger event BeforeUpdate|__sfdc_trigger/OpportunityValidationTrigger
+11:07:50.0 (497783)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:07:50.0 (732697)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:07:50.0 (1497436)|HEAP_ALLOCATE|[95]|Bytes:3
+11:07:50.0 (1544649)|HEAP_ALLOCATE|[100]|Bytes:152
+11:07:50.0 (1564561)|HEAP_ALLOCATE|[417]|Bytes:408
+11:07:50.0 (1584341)|HEAP_ALLOCATE|[430]|Bytes:408
+11:07:50.0 (1618713)|HEAP_ALLOCATE|[317]|Bytes:6
+11:07:50.0 (1651705)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:07:50.0 (1665716)|VARIABLE_SCOPE_BEGIN|[1]|this|OpportunityValidationTrigger|true|false
+11:07:50.0 (1773424)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x31e2215b
+11:07:50.0 (1831437)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:07:50.0 (1840098)|VARIABLE_SCOPE_BEGIN|[1]|this|OpportunityValidationTrigger|true|false
+11:07:50.0 (1857869)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x31e2215b
+11:07:50.0 (1867119)|STATEMENT_EXECUTE|[1]
+11:07:50.0 (1892920)|HEAP_ALLOCATE|[68]|Bytes:5
+11:07:50.0 (1923052)|HEAP_ALLOCATE|[74]|Bytes:5
+11:07:50.0 (1935163)|HEAP_ALLOCATE|[82]|Bytes:7
+11:07:50.0 (2540392)|HEAP_ALLOCATE|[3]|Bytes:5
+11:07:50.0 (2583374)|HEAP_ALLOCATE|[3]|Bytes:4
+11:07:50.0 (2595676)|VARIABLE_SCOPE_BEGIN|[3]|opp|Opportunity|true|false
+11:07:50.0 (3709955)|VARIABLE_ASSIGNMENT|[3]|opp|{"LastModifiedDate":"2026-03-25T05:37:46.000Z","IsDeleted":false,"HasOpportunityLineItem":false,"StageName":"Proposal/Price Quote","Probability":75,"ForecastCategory":"Pipeline","IsClosed":false,"CloseDate":"2026-04-02T00:00:00.000Z","Name":"nanami","SystemModstamp":"2026-03-25T05:37:46.000Z","HasOpenActivity":false,"Approved_c__c":false,"LastStageChangeDate":"2026-03-25T05:37:46.000Z","CreatedById":"005g5000004fJ4PAAU","OwnerId":"005g5000004fJ4PAAU","IsWon":false,"CreatedDate":"2026-03-24T14:13:01.000Z","HasOverdueTask":false,"Id":"006g5000002aUJNAA2","ForecastCategoryName":"Pipeline","IsPrivate":false,"LastModifiedById":"005g5000004fJ4PAAU"}|0x3355c0c4
+11:07:50.0 (3727418)|STATEMENT_EXECUTE|[3]
+11:07:50.0 (3752219)|STATEMENT_EXECUTE|[5]
+11:07:50.0 (3771569)|HEAP_ALLOCATE|[3]|Bytes:5
+11:07:50.0 (3788360)|VARIABLE_ASSIGNMENT|[3]|opp|null|
+11:07:50.3 (3804131)|CUMULATIVE_LIMIT_USAGE
+11:07:50.3 (3804131)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:07:50.3 (3804131)|CUMULATIVE_LIMIT_USAGE_END
+
+11:07:50.0 (4076309)|CODE_UNIT_FINISHED|OpportunityValidationTrigger on Opportunity trigger event BeforeUpdate|__sfdc_trigger/OpportunityValidationTrigger
+11:07:50.0 (27304281)|CODE_UNIT_STARTED|[EXTERNAL]|01qg5000000f6EL|OpportunityTrigger on Opportunity trigger event AfterUpdate|__sfdc_trigger/OpportunityTrigger
+11:07:50.0 (27389806)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:07:50.0 (27533994)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:07:50.0 (27702675)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:07:50.0 (27718366)|VARIABLE_SCOPE_BEGIN|[1]|this|OpportunityTrigger|true|false
+11:07:50.0 (27772770)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x4a6b152f
+11:07:50.0 (27818372)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:07:50.0 (27826224)|VARIABLE_SCOPE_BEGIN|[1]|this|OpportunityTrigger|true|false
+11:07:50.0 (27839235)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x4a6b152f
+11:07:50.0 (27846844)|STATEMENT_EXECUTE|[1]
+11:07:50.0 (27875317)|STATEMENT_EXECUTE|[2]
+11:07:50.0 (27877837)|STATEMENT_EXECUTE|[3]
+11:07:50.0 (28098220)|HEAP_ALLOCATE|[3]|Bytes:4
+11:07:50.0 (28119261)|METHOD_ENTRY|[1]|01pg5000004jPPl|OpportunityTriggerHandler.OpportunityTriggerHandler()
+11:07:50.0 (28124693)|STATEMENT_EXECUTE|[1]
+11:07:50.0 (28128043)|STATEMENT_EXECUTE|[1]
+11:07:50.0 (28135523)|METHOD_EXIT|[1]|OpportunityTriggerHandler
+11:07:50.0 (28150934)|METHOD_ENTRY|[3]|01pg5000004jPPl|OpportunityTriggerHandler.handleAfter(List<Opportunity>, Map<Id,Opportunity>)
+11:07:50.0 (28169145)|VARIABLE_SCOPE_BEGIN|[2]|newOpps|List<Opportunity>|true|false
+11:07:50.0 (28829807)|VARIABLE_ASSIGNMENT|[2]|newOpps|[{"LastModifiedDate":"2026-03-25T05:37:50.000Z","IsDeleted":false,"HasOpportunityLineItem":false,"StageName":"Proposal/Price Quote","Probability":75,"ForecastCategory":"Pipeline","IsClosed":false,"CloseDate":"2026-04-02T00:00:00.000Z","Name":"nanami","SystemModstamp":"2026-03-25T05:37:50.000Z","HasOpenActivity":false,"Approved_c__c":false,"LastStageChangeDate":"2026-03-25T05:37:50.000Z","CreatedById":"005g5000004fJ4PAAU","OwnerId":"005g5000004fJ4PAAU","IsWon":false,"CreatedDate":"2026-03-24T14:13:01.000Z","HasOverdueTask":false,"Id":"006g5000002aUJNAA2","ForecastCategoryName":"Pipeline","IsPrivate":false,"LastModifiedById":"005g5000004fJ4PAAU"}]|0x38117550
+11:07:50.0 (28849099)|VARIABLE_SCOPE_BEGIN|[2]|oldMap|Map<Id,Opportunity>|true|false
+11:07:50.0 (29340530)|VARIABLE_ASSIGNMENT|[2]|oldMap|{"006g5000002aUJNAA2":{"LastModifiedDate":"2026-03-25T05:37:46.000Z","IsDeleted":false,"HasOpportunityLineItem":false,"StageName":"Id. Decision Makers","Probability":60,"ForecastCategory":"Pipeline","IsClosed":false,"CloseDate":"2026-04-02T00:00:00.000Z","Name":"nanami","SystemModstamp":"2026-03-25T05:37:46.000Z","HasOpenActivity":false,"Approved_c__c":false,"LastStageChangeDate":"2026-03-25T05:37:46.000Z","CreatedById":"005g5000004fJ4PAAU","OwnerId":"005g5000004fJ4PAAU","IsWon":false,"CreatedDate":"2026-03-24T14:13:01.000Z","HasOverdueTask":false,"Id":"006g5000002aUJNAA2","ForecastCategoryName":"Pipeline","IsPrivate":false,"LastModifiedById":"005g5000004fJ4PAAU"}}|0x51ac46e0
+11:07:50.0 (29360521)|STATEMENT_EXECUTE|[2]
+11:07:50.0 (29363220)|STATEMENT_EXECUTE|[3]
+11:07:50.0 (29463477)|HEAP_ALLOCATE|[3]|Bytes:4
+11:07:50.0 (29561523)|VARIABLE_SCOPE_BEGIN|[3]|quotesToInsert|List<Quote>|true|false
+11:07:50.0 (29571923)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:07:50.0 (29583514)|VARIABLE_ASSIGNMENT|[3]|quotesToInsert|[]|0x43fcf397
+11:07:50.0 (29588154)|STATEMENT_EXECUTE|[4]
+11:07:50.0 (29601576)|HEAP_ALLOCATE|[4]|Bytes:4
+11:07:50.0 (29636157)|VARIABLE_SCOPE_BEGIN|[4]|oppsToProcess|Set<Id>|true|false
+11:07:50.0 (29664390)|VARIABLE_ASSIGNMENT|[4]|oppsToProcess|[]|0x20548cad
+11:07:50.0 (29724234)|HEAP_ALLOCATE|[6]|Bytes:5
+11:07:50.0 (29752156)|VARIABLE_SCOPE_BEGIN|[6]|opp|Opportunity|true|false
+11:07:50.0 (30159942)|VARIABLE_ASSIGNMENT|[6]|opp|{"LastModifiedDate":"2026-03-25T05:37:50.000Z","IsDeleted":false,"HasOpportunityLineItem":false,"StageName":"Proposal/Price Quote","Probability":75,"ForecastCategory":"Pipeline","IsClosed":false,"CloseDate":"2026-04-02T00:00:00.000Z","Name":"nanami","SystemModstamp":"2026-03-25T05:37:50.000Z","HasOpenActivity":false,"Approved_c__c":false,"LastStageChangeDate":"2026-03-25T05:37:50.000Z","CreatedById":"005g5000004fJ4PAAU","OwnerId":"005g5000004fJ4PAAU","IsWon":false,"CreatedDate":"2026-03-24T14:13:01.000Z","HasOverdueTask":false,"Id":"006g5000002aUJNAA2","ForecastCategoryName":"Pipeline","IsPrivate":false,"LastModifiedById":"005g5000004fJ4PAAU"}|0x13dcc602
+11:07:50.0 (30175272)|STATEMENT_EXECUTE|[6]
+11:07:50.0 (30178352)|STATEMENT_EXECUTE|[7]
+11:07:50.0 (30324801)|VARIABLE_SCOPE_BEGIN|[7]|wasChanged|Boolean|false|false
+11:07:50.0 (30335442)|HEAP_ALLOCATE|[7]|Bytes:5
+11:07:50.0 (30344282)|VARIABLE_ASSIGNMENT|[7]|wasChanged|true
+11:07:50.0 (30352763)|HEAP_ALLOCATE|[8]|Bytes:20
+11:07:50.0 (30362134)|STATEMENT_EXECUTE|[8]
+11:07:50.0 (30364814)|STATEMENT_EXECUTE|[9]
+11:07:50.0 (30411518)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:07:50.0 (30431048)|HEAP_ALLOCATE|[6]|Bytes:5
+11:07:50.0 (30444440)|VARIABLE_ASSIGNMENT|[6]|opp|null|
+11:07:50.0 (30464650)|STATEMENT_EXECUTE|[13]
+11:07:50.0 (30467300)|STATEMENT_EXECUTE|[16]
+11:07:50.0 (30479442)|METHOD_ENTRY|[16]|01pg5000004jPPl|OpportunityTriggerHandler.getTargetPricebookId()
+11:07:50.0 (30496462)|STATEMENT_EXECUTE|[37]
+11:07:50.0 (30498582)|STATEMENT_EXECUTE|[38]
+11:07:50.0 (30501643)|HEAP_ALLOCATE|[38]|Bytes:81
+11:07:50.0 (30522675)|HEAP_ALLOCATE|[38]|Bytes:4
+11:07:50.0 (31205528)|SOQL_EXECUTE_BEGIN|[38]|Aggregations:0|SELECT Id FROM Pricebook2 WHERE (Name = 'Solar Book' AND IsActive = TRUE) LIMIT 1
+11:07:50.0 (68996992)|SOQL_EXECUTE_END|[38]|Rows:1
+11:07:50.0 (69078456)|HEAP_ALLOCATE|[38]|Bytes:8
+11:07:50.0 (69147331)|HEAP_ALLOCATE|[38]|Bytes:29
+11:07:50.0 (69349073)|HEAP_ALLOCATE|[38]|Bytes:8
+11:07:50.0 (69392286)|VARIABLE_SCOPE_BEGIN|[38]|solarPB|List<Pricebook2>|true|false
+11:07:50.0 (69622890)|VARIABLE_ASSIGNMENT|[38]|solarPB|[{"Id":"01sg5000002fLKHAA2"}]|0x43836785
+11:07:50.0 (69884338)|STATEMENT_EXECUTE|[39]
+11:07:50.0 (69922570)|STATEMENT_EXECUTE|[40]
+11:07:50.0 (69992905)|HEAP_ALLOCATE|[40]|Bytes:8
+11:07:50.0 (70087200)|METHOD_EXIT|[16]|01pg5000004jPPl|OpportunityTriggerHandler.getTargetPricebookId()
+11:07:50.0 (70103832)|VARIABLE_SCOPE_BEGIN|[16]|targetPbId|Id|false|false
+11:07:50.0 (70493666)|VARIABLE_ASSIGNMENT|[16]|targetPbId|"01sg5000002fLKHAA2"
+11:07:50.0 (70504977)|STATEMENT_EXECUTE|[18]
+11:07:50.0 (70546530)|HEAP_ALLOCATE|[18]|Bytes:4
+11:07:50.0 (70555910)|HEAP_ALLOCATE|[18]|Bytes:79
+11:07:50.0 (70604134)|HEAP_ALLOCATE|[18]|Bytes:4
+11:07:50.0 (70641026)|HEAP_ALLOCATE|[18]|Bytes:7
+11:07:50.0 (72573438)|SOQL_EXECUTE_BEGIN|[18]|Aggregations:1|SELECT Id, (SELECT Id FROM Quotes LIMIT 1) FROM Opportunity WHERE Id = :tmpVar1
+11:07:50.0 (102905710)|SOQL_EXECUTE_END|[18]|Rows:1
+11:07:50.0 (102978253)|HEAP_ALLOCATE|[18]|Bytes:8
+11:07:50.0 (103012666)|HEAP_ALLOCATE|[18]|Bytes:103
+11:07:50.0 (103089311)|HEAP_ALLOCATE|[18]|Bytes:8
+11:07:50.0 (103166185)|HEAP_ALLOCATE|[18]|Bytes:12
+11:07:50.0 (103200497)|HEAP_ALLOCATE|[18]|Bytes:4
+11:07:50.0 (103222720)|VARIABLE_SCOPE_BEGIN|[18]|existingQuotesMap|Map<Id,Opportunity>|true|false
+11:07:50.0 (103978347)|VARIABLE_ASSIGNMENT|[18]|existingQuotesMap|{"006g5000002aUJNAA2":{"Quotes":[{"OpportunityId":"006g5000002aUJNAA2","Id":"0Q0g5000000AyPVCA0"}],"Id":"006g5000002aUJNAA2"}}|0x2c384ba8
+11:07:50.0 (104330859)|HEAP_ALLOCATE|[23]|Bytes:5
+11:07:50.0 (104369081)|VARIABLE_SCOPE_BEGIN|[23]|opp|Opportunity|true|false
+11:07:50.0 (104885465)|VARIABLE_ASSIGNMENT|[23]|opp|{"LastModifiedDate":"2026-03-25T05:37:50.000Z","IsDeleted":false,"HasOpportunityLineItem":false,"StageName":"Proposal/Price Quote","Probability":75,"ForecastCategory":"Pipeline","IsClosed":false,"CloseDate":"2026-04-02T00:00:00.000Z","Name":"nanami","SystemModstamp":"2026-03-25T05:37:50.000Z","HasOpenActivity":false,"Approved_c__c":false,"LastStageChangeDate":"2026-03-25T05:37:50.000Z","CreatedById":"005g5000004fJ4PAAU","OwnerId":"005g5000004fJ4PAAU","IsWon":false,"CreatedDate":"2026-03-24T14:13:01.000Z","HasOverdueTask":false,"Id":"006g5000002aUJNAA2","ForecastCategoryName":"Pipeline","IsPrivate":false,"LastModifiedById":"005g5000004fJ4PAAU"}|0x13dcc602
+11:07:50.0 (104911406)|STATEMENT_EXECUTE|[23]
+11:07:50.0 (105064426)|HEAP_ALLOCATE|[24]|Bytes:6
+11:07:50.0 (105072606)|HEAP_ALLOCATE|[24]|Bytes:5
+11:07:50.0 (105162742)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:07:50.0 (105206455)|HEAP_ALLOCATE|[24]|Bytes:8
+11:07:50.0 (105236407)|STATEMENT_EXECUTE|[24]
+11:07:50.0 (105255778)|HEAP_ALLOCATE|[23]|Bytes:5
+11:07:50.0 (105272530)|VARIABLE_ASSIGNMENT|[23]|opp|null|
+11:07:50.0 (105299891)|STATEMENT_EXECUTE|[33]
+11:07:50.0 (105310481)|METHOD_EXIT|[3]|01pg5000004jPPl|OpportunityTriggerHandler.handleAfter(List<Opportunity>, Map<Id,Opportunity>)
+11:07:50.105 (105330053)|CUMULATIVE_LIMIT_USAGE
+11:07:50.105 (105330053)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 2 out of 100
+  Number of query rows: 3 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:07:50.105 (105330053)|CUMULATIVE_LIMIT_USAGE_END
+
+11:07:50.0 (105675094)|CODE_UNIT_FINISHED|OpportunityTrigger on Opportunity trigger event AfterUpdate|__sfdc_trigger/OpportunityTrigger
+11:07:50.0 (156365326)|CODE_UNIT_FINISHED|TRIGGERS
+11:07:50.0 (156483373)|EXECUTION_FINISHED
