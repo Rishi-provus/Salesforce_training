@@ -7,7 +7,7 @@ public class QuoteTriggerHandler {
 
         Set<Id> submittedQuoteIds = new Set<Id>();
 
-        // 1. Handle Manager Approval & Identify Submissions
+        // 1. Handle Manager Approval 
         for (Quote q : newQuotes) {
             Quote oldQ = oldMap.get(q.Id);
 
