@@ -7,7 +7,7 @@ public class QuoteLineItemHandler {
 
         if (productIds.isEmpty()) return;
 
-       // We MUST query the category info because it's not in the trigger context
+       
         Map<Id, Product2> productMap = new Map<Id, Product2>([
             SELECT Id, Product_Category__r.Max_Discount__c 
             FROM Product2 
